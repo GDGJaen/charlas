@@ -5,7 +5,7 @@
 	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/people_PNG_LfN1Fhu6o.png" height="200px"/>
 </div>
 
-Esta guía es Open Source. ¿Quieres contribuir? Empieza por el archivo [CONTRIBUIR.md]() donde podrás informarte sobre cómo colaborar en el proyecto.
+Esta guía es Open Source. ¿Quieres contribuir? Empieza por el archivo [CONTRIBUIR.md](https://github.com/GDGJaen/charlas/blob/master/open-source-manuelalferez-2021/CONTRIBUIR.md) donde podrás informarte sobre cómo colaborar en el proyecto.
 
 
 
