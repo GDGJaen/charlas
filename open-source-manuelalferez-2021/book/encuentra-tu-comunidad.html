@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Encuentra tu comunidad - Primeros pasos en Open Source</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="que-es.html"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="encuentra-tu-comunidad.html" class="active"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="pull-request.html"><strong aria-hidden="true">4.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="paso-1-fork.html"><strong aria-hidden="true">4.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="paso-2-crea-una-rama.html"><strong aria-hidden="true">4.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">4.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="paso-4-crea-un-commit.html"><strong aria-hidden="true">4.4.</strong> Paso 4. Crea un commit</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Primeros pasos en Open Source</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="encuentra-tu-comunidad"><a class="header" href="#encuentra-tu-comunidad">Encuentra tu comunidad</a></h1>
+<div align="center" place-items="center">
+  <h2>
+    Google Summer of Code 
+  </h2>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/gsoc-logo_izo853FWi.png?updatedAt=1634108468143" alt="GSOC logo" height="80"/>
+</div>
+<p>Google Summer of Code es un programa global centrado en atraer a más estudiantes al desarrollo de software Open Source. Los estudiantes trabajan con una organización de código abierto en un proyecto de programación de 10 semanas durante sus vacaciones universitarias <sup class="footnote-reference"><a href="#1">1</a></sup>.</p>
+<div align="center" place-items="center">
+<iframe width="280" height="157.5" src="https://www.youtube.com/embed/S6IP_6HG2QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>El programa de anteriores años te ayudará a prepararte con tiempo al siguiente<sup class="footnote-reference"><a href="#2">2</a></sup>:</p>
+<table><thead><tr><th>Deadline</th><th>Descripción</th><th>Fecha</th></tr></thead><tbody>
+<tr><td>Organization Applications Open</td><td>Las organizaciones Open Source que deseen participar como organización mentora en el programa de este año pueden postularse.</td><td>Enero 29</td></tr>
+<tr><td>Organization Application Deadline</td><td>Todas las organizaciones que deseen formar parte de GSoC 2021 deben completar su solicitud antes del 19 de febrero de 2021 a las 20:00 (hora estándar de Europa central).</td><td>Febrero 19</td></tr>
+<tr><td>Organizations Announced</td><td>Los estudiantes interesados ahora pueden comenzar a discutir ideas de proyectos con las organizaciones mentoras aceptadas.</td><td>Marzo 9</td></tr>
+<tr><td>Student Application Period</td><td>Los estudiantes pueden registrarse y enviar sus solicitudes a organizaciones mentoras. Todas las propuestas deberán presentarse antes del 13 de abril de 2021 a las 20:00 (hora de verano de Europa central).</td><td>Marzo 29 - Abril 13</td></tr>
+<tr><td>Application Review Period</td><td>Las organizaciones revisan y seleccionan las propuestas de los estudiantes.</td><td>Abril 13 - Mayo 17</td></tr>
+<tr><td>Student Projects Announced</td><td>Los estudiantes aceptados se emparejan con un mentor y comienzan a planificar sus proyectos e hitos.</td><td>Mayo 17</td></tr>
+<tr><td>Community Bonding</td><td>Los estudiantes pasan un mes aprendiendo más sobre la comunidad de su organización.</td><td>Mayo 17 - Junio 7</td></tr>
+<tr><td>Coding</td><td>Los estudiantes trabajan en sus proyectos de Google Summer of Code.</td><td>Junio 7 - Agosto 16</td></tr>
+<tr><td>Evaluations</td><td>Los mentores y los estudiantes envían sus evaluaciones.</td><td>Julio 12 - 16</td></tr>
+<tr><td>Students Submit Code and Final Evaluations</td><td>Los estudiantes envían su código, resúmenes de proyectos y evaluaciones finales de sus mentores.</td><td>Agosto 16 - 23</td></tr>
+<tr><td>Mentors Submit Final Evaluations</td><td>Los mentores revisan las muestras de código de los estudiantes y determinan si los estudiantes completaron con éxito su proyecto Google Summer of Code.</td><td>Agosto 23 - 30</td></tr>
+<tr><td>Results Announced</td><td>Se notifica a los estudiantes sobre el estado de sus proyectos de Google Summer of Code 2021, pass / fail.</td><td>Agosto 31, 202</td></tr>
+</tbody></table>
+<p>Únete al <a href="https://groups.google.com/g/google-summer-of-code-discuss">grupo de discusión</a> de Google Summer of Code. </p>
+<div align="center" place-items="center">
+  <h2>
+    Hacktoberfest
+  </h2>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/hacktoberfest-2021-logo_MlGJphc4er.png?updatedAt=1634108468235" alt="hacktoberfest logo" height="80"/>
+</div>
+<p>Hacktoberfest fomenta la participación en la comunidad de Open Source, animando a los participantes a completar un desafío y regalándoles una camiseta de edición limitada<sup class="footnote-reference"><a href="#3">3</a></sup>.</p>
+<h3 id="cómo-funciona"><a class="header" href="#cómo-funciona">¿Cómo funciona?</a></h3>
+<ol>
+<li>
+<p>Los propietarios de sus proyectos Open Source participan añadiendo el tag <code>hacktoberfest</code> a sus repositorios. </p>
+<div align="center">
+  <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/como-funciona-tag_8WJVAgSo1.png?updatedAt=1634109067455" />
+</div>
+</li>
+<li>
+<p>Realizar pull requests de calidad a través de GitHub o GitLab. Ejemplos de pull requests de baja calidad: </p>
+<ol>
+<li>Pull requests automáticos. Ej. Eliminar espacios en blanco / corregir errores tipográficos / optimizar imágenes.</li>
+<li>Pull requests que son consideradas por el responsable del proyecto como un obstáculo frente a una ayuda.</li>
+<li>Algo que claramente es un intento de simplemente hacer +1 en el recuento de tus pull requests.</li>
+<li>Por último, pero no menos importante, un pull request para corregir un error tipográfico está bien, pero 5 pull requests para eliminar un espacio en blanco perdido no lo están.</li>
+</ol>
+</li>
+</ol>
+<h3 id="buscando-proyectos"><a class="header" href="#buscando-proyectos">Buscando proyectos</a></h3>
+<p>Una buena lista de referencia por la que puedes comenzar:</p>
+<ul>
+<li><a href="https://dev.to/devteam">The Dev Team</a>. Suelen anunciar el HacktoberFest todos los años, y los responsables de proyectos acuden para anunciar sus proyectos en la sección de comentarios.</li>
+</ul>
+<div align="center">
+    <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/dev-hacktoberfest-anuncio_3-_0jAT9gF.png" />
+      <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/dev-comentarios_BEXHFtL_O.png" />
+  </div>
+<ul>
+<li>
+<p><a href="https://github.com/topics/hacktoberfest">GitHub</a>. Buscando por el topic <code>Hacktoberfest</code> verás ¡más 84.000 repositorios públicos en los que participar!</p>
+<div align="center">
+  <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/github-hacktoberfest-topic_brP4uWBHK.png" />
+</div>
+<h2 id="más-comunidades"><a class="header" href="#más-comunidades">Más comunidades</a></h2>
+<p>Investiga en la lista que han creado +500 colaboradores acerca de proyecto Open Source que ellos mismos recomiendan:</p>
+<p><a href="sindresorhus/awesome">sindresorhus/awesome</a>: 😎 Fantástica lista sobre todo tipo de temas interesantes.</p>
+</li>
+</ul>
+<div align="center" place-items="center">
+  <i>La comunidad es el ❤️ del Open Source</i>
+</div>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a>
+<sup class="footnote-reference"><a href="#2">2</a></sup>: <a href="https://summerofcode.withgoogle.com/how-it-works/">GSoC - How it works?</a>
+<sup class="footnote-reference"><a href="#3">3</a></sup>: <a href="https://hacktoberfest.digitalocean.com/">HacktoberFest</a></p>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="que-significa-contribuir.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="pull-request.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="que-significa-contribuir.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="pull-request.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
