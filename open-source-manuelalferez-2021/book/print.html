@@ -76,7 +76,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="que-es.html"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="pull-request.html"><strong aria-hidden="true">4.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="paso-1-fork.html"><strong aria-hidden="true">4.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="paso-2-crea-una-rama.html"><strong aria-hidden="true">4.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">4.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="paso-4-crea-un-commit.html"><strong aria-hidden="true">4.4.</strong> Paso 4. Crea un commit</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="que-es.html"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="pull-request.html"><strong aria-hidden="true">4.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="paso-1-fork.html"><strong aria-hidden="true">4.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="paso-2-crea-una-rama.html"><strong aria-hidden="true">4.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">4.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="paso-4-crea-un-commit.html"><strong aria-hidden="true">4.4.</strong> Paso 4. Crea un commit</a></li><li class="chapter-item expanded "><a href="paso-5-push.html"><strong aria-hidden="true">4.5.</strong> Paso 5. Push</a></li><li class="chapter-item expanded "><a href="paso-6-crea-un-pull-request.html"><strong aria-hidden="true">4.6.</strong> Paso 6. Crea un pull request</a></li></ol></li><li class="chapter-item expanded "><a href="lanza-tu-propio-proyecto.html"><strong aria-hidden="true">5.</strong> Lanza tu propio proyecto</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="contribuidores.html">Contribuidores</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -309,6 +309,7 @@
 <p>Una lista de recursos útiles sobre Git: </p>
 <ul>
 <li><a href="https://git-scm.com/book/es/v2">Guía de Git oficial en español</a>. El libro completo de Git, escrito por Scott Chacon y Ben Straub. </li>
+<li><a href="https://guides.github.com/">Guía de Git por GitHub (inglés)</a></li>
 <li><a href="https://guias.makeitreal.camp/git">Guía de Git por Make it Real.</a> Una guía muy bien explicada y fácil de seguir. </li>
 <li><a href="https://www.youtube.com/playlist?list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU">Tutorial de Git (YouTube).</a> Si te va el contenido audiovisual, esta lista de reproducción te mostrará cómo utilizar Git, paso a paso, de forma clara.</li>
 </ul>
@@ -435,6 +436,101 @@ From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p><a href="https://www.freecodecamp.org/espanol/news/el-comando-git-commit-explicado/">El Comando Git Commit Explicado por Juan Carrillo</a></p>
 </div>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="paso-5-push"><a class="header" href="#paso-5-push">Paso 5. Push</a></h1>
+<p>Tenemos nuestro commit, toca subir los commits desde tu rama local en tu repositorio Git local al repositorio remoto.</p>
+<p>Para subir a tu repositorio basta con el siguiente comando: </p>
+<pre><code class="language-shell">git push REPOSITORY_NAME BRANCH-NAME
+</code></pre>
+<p>Donde <code>REPOSITORY_NAME</code> puedes identificarlo con:</p>
+<pre><code class="language-shell">git remote -v
+origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+</code></pre>
+<p>En este caso,<code>origin</code> es el nombre de nuestro fork, ya que es el que está asocidado a nuestro fork: </p>
+<div>
+  <code>origin	https://github.com/<b>YOUR_USERNAME/YOUR_FORK.git</b></code>
+</div>
+<h2 id="quieres-más"><a class="header" href="#quieres-más">¿Quieres más?</a></h2>
+<p>La <a href="https://github.com/git-guides/git-push">guía de GitHub</a> acerca <code>push</code> es lo que buscas. </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="paso-6-crea-un-pull-request"><a class="header" href="#paso-6-crea-un-pull-request">Paso 6. Crea un pull request</a></h1>
+<div align="center">
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pull-request-hero_jgjXVemu3.png?updatedAt=1634136600060" height="200px"/>
+</div>
+<h2 id="creando-un-pull-request-por-githubsup-classfootnote-referencea-href11asup"><a class="header" href="#creando-un-pull-request-por-githubsup-classfootnote-referencea-href11asup">Creando un pull request (por GitHub)<sup class="footnote-reference"><a href="#1">1</a></sup></a></h2>
+<h3 id="desde-la-interfaz-gráfica-1"><a class="header" href="#desde-la-interfaz-gráfica-1">Desde la interfaz gráfica</a></h3>
+<ol>
+<li>
+<p>Ve a tu repositorio en GitHub y verás un botón llamado <code>Pull request</code>.</p>
+<div align="center">
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pull-request-boton_GD6udVZzWn.jpeg" height="200px"/>
+</div>
+</li>
+<li>
+<p>Escribe un título y una descripción para tu pull request.</p>
+<div align="center">
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pullrequest-description_fY7qBmzgb.png" height="200px"/>
+</div>
+</li>
+<li>
+<p>Si tu pull request es aceptado recibirás un correo.</p>
+</li>
+</ol>
+<h3 id="desde-la-terminal"><a class="header" href="#desde-la-terminal">Desde la terminal</a></h3>
+<p>Es más eficiente y rápido hacerlo cong GitHub CLI. </p>
+<p>GitHub CLI es una herramienta de línea de comandos con la que puedes hacer pull request, crear issues y otras características de GitHub desde terminal, para que pueda hacer todo tu trabajo en un solo lugar<sup class="footnote-reference"><a href="#2">2</a></sup>.</p>
+<h4 id="instalando-github-cli"><a class="header" href="#instalando-github-cli">Instalando GitHub CLI</a></h4>
+<ol>
+<li>
+<p><a href="https://cli.github.com/">Instala</a> GitHub CLI. </p>
+</li>
+<li>
+<p>Autentícate.</p>
+<pre><code class="language-shell">gh auth login
+</code></pre>
+</li>
+</ol>
+<h4 id="pasos-a-seguir-para-hacer-un-pull-request"><a class="header" href="#pasos-a-seguir-para-hacer-un-pull-request">Pasos a seguir para hacer un pull request</a></h4>
+<ol>
+<li>
+<p>Ubícate en la rama sobre la que quieres hacer el pull request. </p>
+<pre><code class="language-shell">git checkout BRANCH_NAME
+</code></pre>
+</li>
+<li>
+<p>Crea el pull request y sigue los pasos que te indica desde la terminal. </p>
+<pre><code class="language-shell">gh pr create
+</code></pre>
+<p>Este comando admite flags, para más información consulta la <a href="https://cli.github.com/manual/gh_pr_create">documentación de GitHub CLI</a>.</p>
+</li>
+</ol>
+<div align="center" place-items="center">
+  </br>
+  <i>¡BRAVO! 🚀</i>
+  <i>Acabas de hacer tu primer pull request</i>
+</div>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">Creating a pull request by GitHub</a>
+<sup class="footnote-reference"><a href="#2">2</a></sup>: <a href="https://docs.github.com/en/github-cli/github-cli/about-github-cli">GitHub CLI</a></p>
+</div>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="lanza-tu-propio-proyecto"><a class="header" href="#lanza-tu-propio-proyecto">Lanza tu propio proyecto</a></h1>
+<div align="center">
+  </br>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/lanza-tu-propio-proyecto_kQ6pLB26c.png" height="300px"/>
+</div>
+<p>Ahora que ya sabes cómo colaborar, probablemente estás pensando en comenzar tu propio proyecto Open Source. ¡Oleeeeeee! </p>
+<p>Aprende más en <a href="https://opensource.guide/es/starting-a-project/"><em>Comenzando un proyecto de Código Abierto</em></a>. </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contribuidores"><a class="header" href="#contribuidores">Contribuidores</a></h1>
+<div align="center">
+  </br>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/people_PNG_LfN1Fhu6o.png" height="200px"/>
+</div>
+<p>Esta guía es Open Source. ¿Quieres contribuir? Empieza por el archivo <a href="">CONTRIBUIR.md</a> donde podrás informarte sobre cómo colaborar en el proyecto.</p>
+<p>Aquí hay una lista de colaboradores que han ayudado a mejorar <em>Primeros pasos en Open Source</em>. ¡Únete!</p>
+<table><thead><tr><th><img src="https://avatars1.githubusercontent.com/u/38152841?s=400&" alt="Manuel" height="50"></th></tr></thead><tbody>
+<tr><td><a href="https://github.com/manuelalferez">Manuel</a></td></tr>
+</tbody></table>
 
                     </main>
 
@@ -450,20 +546,6 @@ From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3000/__livereload");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

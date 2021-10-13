@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="que-es.html" class="active"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="pull-request.html"><strong aria-hidden="true">4.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="paso-1-fork.html"><strong aria-hidden="true">4.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="paso-2-crea-una-rama.html"><strong aria-hidden="true">4.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">4.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="paso-4-crea-un-commit.html"><strong aria-hidden="true">4.4.</strong> Paso 4. Crea un commit</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="que-es.html" class="active"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="pull-request.html"><strong aria-hidden="true">4.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="paso-1-fork.html"><strong aria-hidden="true">4.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="paso-2-crea-una-rama.html"><strong aria-hidden="true">4.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">4.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="paso-4-crea-un-commit.html"><strong aria-hidden="true">4.4.</strong> Paso 4. Crea un commit</a></li><li class="chapter-item expanded "><a href="paso-5-push.html"><strong aria-hidden="true">4.5.</strong> Paso 5. Push</a></li><li class="chapter-item expanded "><a href="paso-6-crea-un-pull-request.html"><strong aria-hidden="true">4.6.</strong> Paso 6. Crea un pull request</a></li></ol></li><li class="chapter-item expanded "><a href="lanza-tu-propio-proyecto.html"><strong aria-hidden="true">5.</strong> Lanza tu propio proyecto</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="contribuidores.html">Contribuidores</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -168,20 +168,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3000/__livereload");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

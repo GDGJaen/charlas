@@ -48,6 +48,7 @@ Tanto si es tu primera vez trabajando con Git como si tienes experiencia, es nor
 Una lista de recursos útiles sobre Git: 
 
 * [Guía de Git oficial en español](https://git-scm.com/book/es/v2). El libro completo de Git, escrito por Scott Chacon y Ben Straub. 
+* [Guía de Git por GitHub (inglés)](https://guides.github.com/)
 * [Guía de Git por Make it Real.](https://guias.makeitreal.camp/git) Una guía muy bien explicada y fácil de seguir. 
 * [Tutorial de Git (YouTube).](https://www.youtube.com/playlist?list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU) Si te va el contenido audiovisual, esta lista de reproducción te mostrará cómo utilizar Git, paso a paso, de forma clara.
 
