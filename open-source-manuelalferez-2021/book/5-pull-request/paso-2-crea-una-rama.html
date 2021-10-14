@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../1-introduccion/introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="../2-que-es-el-open-source/que-es-el-open-source.html"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-como-contribuir/que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="../4-pull-request/pull-request.html"><strong aria-hidden="true">4.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-pull-request/paso-1-fork.html"><strong aria-hidden="true">4.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-2-crea-una-rama.html" class="active"><strong aria-hidden="true">4.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">4.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-4-crea-un-commit.html"><strong aria-hidden="true">4.4.</strong> Paso 4. Crea un commit</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-5-push.html"><strong aria-hidden="true">4.5.</strong> Paso 5. Push</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-6-crea-un-pull-request.html"><strong aria-hidden="true">4.6.</strong> Paso 6. Crea un pull request</a></li></ol></li><li class="chapter-item expanded "><a href="../5-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.html"><strong aria-hidden="true">5.</strong> Lanza tu propio proyecto</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../contribuidores/contribuidores.html">Contribuidores</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../1-introduccion/introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="../2-que-es-el-open-source/que-es-el-open-source.html"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-como-contribuir/que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="../4-introduccion-a-git/introduccion-a-git.html"><strong aria-hidden="true">4.</strong> Introducción a Git</a></li><li class="chapter-item expanded "><a href="../5-pull-request/pull-request.html"><strong aria-hidden="true">5.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-pull-request/paso-1-fork.html"><strong aria-hidden="true">5.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-2-crea-una-rama.html" class="active"><strong aria-hidden="true">5.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">5.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-4-crea-un-commit.html"><strong aria-hidden="true">5.4.</strong> Paso 4. Crea un commit</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-5-push.html"><strong aria-hidden="true">5.5.</strong> Paso 5. Push</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-6-crea-un-pull-request.html"><strong aria-hidden="true">5.6.</strong> Paso 6. Crea un pull request</a></li></ol></li><li class="chapter-item expanded "><a href="../6-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.html"><strong aria-hidden="true">6.</strong> Lanza tu propio proyecto</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../contribuidores/contribuidores.html">Contribuidores</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -140,32 +140,22 @@
 	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/git-crear-rama_7oXZIjj-mI.png" height="300px"/>
 </div>
 <p>Utilice una rama para aislar el trabajo de desarrollo sin afectar a otras ramas del repositorio. Cada repositorio tiene una rama predeterminada y puede tener varias otras ramas. </p>
-<p>Siempre crea una rama a partir de una rama existente. </p>
 <h2 id="comandos-importantessup-classfootnote-referencea-href11asup"><a class="header" href="#comandos-importantessup-classfootnote-referencea-href11asup">Comandos importantes<sup class="footnote-reference"><a href="#1">1</a></sup></a></h2>
-<p>Para ver las ramas en un repositorio Git, ejecuta el comando:</p>
+<p>Para ver las ramas existentes, ejecuta el comando:</p>
 <pre><code class="language-shell">git branch
 </code></pre>
 <p>Para crear una nueva rama, ejecutar el comando:</p>
-<pre><code class="language-shell">git branch NOMBRE-NUEVA-RAMA
+<pre><code class="language-shell">git branch NOMBRE_NUEVA_RAMA
 </code></pre>
 <p>Para moverse a una rama existente, ejecuta el comando:</p>
-<pre><code class="language-shell">git checkout NOMBRE-RAMA
+<pre><code class="language-shell">git checkout NOMBRE_RAMA
 </code></pre>
 <p>Hay un atajo para crear y moverte a la nueva rama al mismo tiempo.</p>
-<pre><code class="language-shell">git checkout -b NOMBRE-NUEVA-RAMA
+<pre><code class="language-shell">git checkout -b NOMBRE_NUEVA_RAMA
 </code></pre>
 <p>Git no te permitirá eliminar una rama en la que te encuentres actualmente. Primero necesitas moverte a una rama diferente, y luego ejecutar el comando:</p>
-<pre><code class="language-shell">git branch -d RAMA-A-ELIMINAR
+<pre><code class="language-shell">git branch -d RAMA_A_ELIMINAR
 </code></pre>
-<h2 id="tienes-dificultades"><a class="header" href="#tienes-dificultades">¿Tienes dificultades?</a></h2>
-<p>Tanto si es tu primera vez trabajando con Git como si tienes experiencia, es normal acudir a la documentación para consultar algún comando. </p>
-<p>Una lista de recursos útiles sobre Git: </p>
-<ul>
-<li><a href="https://git-scm.com/book/es/v2">Guía de Git oficial en español</a>. El libro completo de Git, escrito por Scott Chacon y Ben Straub. </li>
-<li><a href="https://guides.github.com/">Guía de Git por GitHub (inglés)</a></li>
-<li><a href="https://guias.makeitreal.camp/git">Guía de Git por Make it Real.</a> Una guía muy bien explicada y fácil de seguir. </li>
-<li><a href="https://www.youtube.com/playlist?list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU">Tutorial de Git (YouTube).</a> Si te va el contenido audiovisual, esta lista de reproducción te mostrará cómo utilizar Git, paso a paso, de forma clara.</li>
-</ul>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p><a href="https://www.freecodecamp.org/espanol/news/explicacion-de-la-rama-de-gi-como-eliminar/#cambiar-de-rama">Explicación de Git branch: Cómo eliminar, mover, crear y renombrar una rama en Git por Obdulia Montiel</a></p>
 </div>
@@ -174,10 +164,10 @@
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../4-pull-request/paso-1-fork.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../5-pull-request/paso-1-fork.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../4-pull-request/paso-3-manten-tu-fork-actualizado.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../5-pull-request/paso-3-manten-tu-fork-actualizado.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -186,10 +176,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../4-pull-request/paso-1-fork.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../5-pull-request/paso-1-fork.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../4-pull-request/paso-3-manten-tu-fork-actualizado.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../5-pull-request/paso-3-manten-tu-fork-actualizado.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

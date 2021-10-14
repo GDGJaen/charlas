@@ -11,6 +11,8 @@ Los commits están en el corazón del uso de Git. Puedes pensar en un commit com
 - puedes recordar los cambios a los que se les hizo commits en una fecha posterior, o revertir el proyecto a esa versión
 - si varios commits editan diferentes partes del proyecto, no se sobrescribirán entre sí aunque los autores de los commits no se conozcan entre sí. Este es uno de los beneficios de usar Git sobre una herramienta como Dropbox o Google Drive [^1]
 
+> ¿Recuerdas cuando Antonio marcó con un marcador fluorescente los cambios que hizo a los apuntes de Susana y añadió un mensaje? 
+
 ## Pasos a seguir
 
 <div align="center">
@@ -23,13 +25,13 @@ Los commits están en el corazón del uso de Git. Puedes pensar en un commit com
 
 
 
-1. Antes de realizar el commit, indica a Git que quieres incluir actualizaciones en un archivo (o varios) en la próxima confirmación. Lo que se conoce como agregar el archivo a `staging`. 
+1. Antes de realizar el commit, indica a Git que quieres incluir actualizaciones en un archivo (o varios). Lo que se conoce como agregar el archivo a `staging`. 
 
    ```shell
    git add ARCHIVO1 ARCHIVO2
    ```
 
-   Si quiere pasar a `staging` todos los archivos que han sido modificados:
+   Si quieres pasar a `staging` todos los archivos que han sido modificados:
 
    ```shell
    git add . 
@@ -48,7 +50,7 @@ Los commits están en el corazón del uso de Git. Puedes pensar en un commit com
     1 file changed, 1 insertion(+)
    ```
 
-   La opción más común utilizada con `git commit` es la opción `-m`. La `-m` significa mensaje. Cuando se llama a `git commit`, es necesario incluir un mensaje. El mensaje debe ser una breve descripción de los cambios a los que se les está realizando un commit. El mensaje debe estar al final del comando y debe estar envuelto entre comilla `" "`.
+   La opción más utilizada con `git commit` es la opción `-m`. La `-m` significa mensaje. Cuando se llama a `git commit`, es necesario incluir un mensaje. El mensaje debe ser una breve descripción de los cambios que se han hecho. El mensaje debe estar al final del comando y debe estar envuelto entre comilla `" "`.
 
 
 

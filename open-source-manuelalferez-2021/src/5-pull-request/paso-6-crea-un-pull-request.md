@@ -24,9 +24,9 @@
 
 ### Desde la terminal
 
-Es más eficiente y rápido hacerlo cong GitHub CLI. 
+Es más eficiente y rápido hacerlo con GitHub CLI. 
 
-GitHub CLI es una herramienta de línea de comandos con la que puedes hacer pull request, crear issues y otras características de GitHub desde terminal, para que pueda hacer todo tu trabajo en un solo lugar[^2].
+GitHub CLI es una herramienta de línea de comandos con la que puedes hacer pull requests, crear issues y otras características de GitHub, para que puedas hacer todo en un solo lugar[^2].
 
 #### Instalando GitHub CLI
 
@@ -43,16 +43,18 @@ GitHub CLI es una herramienta de línea de comandos con la que puedes hacer pull
 1. Ubícate en la rama sobre la que quieres hacer el pull request. 
 
    ```shell
-   git checkout BRANCH_NAME
+   git checkout NOMBRE_DE_LA_RAMA
    ```
 
-2. Crea el pull request y sigue los pasos que te indica desde la terminal. 
+2. Crea el pull request.
 
    ```shell
    gh pr create
    ```
 
-   Este comando admite flags, para más información consulta la [documentación de GitHub CLI](https://cli.github.com/manual/gh_pr_create).
+   Sigue los pasos que te indican desde la terminal. 
+   
+   Este comando admite `flags`, para más información consulta la [documentación de GitHub CLI](https://cli.github.com/manual/gh_pr_create).
 
 <div align="center" place-items="center">
   </br>

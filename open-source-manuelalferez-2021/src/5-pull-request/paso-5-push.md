@@ -2,13 +2,15 @@
 
 Tenemos nuestro commit, toca subir los commits desde tu rama local en tu repositorio Git local al repositorio remoto.
 
-Para subir a tu repositorio basta con el siguiente comando: 
+> Antonio escaneando los apuntes para subirlos a su nube. 
+
+Basta con el siguiente comando: 
 
 ```shell
 git push REPOSITORY_NAME BRANCH-NAME
 ```
 
-Donde `REPOSITORY_NAME` puedes identificarlo con:
+Donde `REPOSITORY_NAME` puedes encontrarlo con:
 
 ```shell
 git remote -v

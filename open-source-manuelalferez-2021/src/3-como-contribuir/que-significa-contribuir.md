@@ -8,7 +8,7 @@ Contribuye de acuerdo a tus gustos.
 
 * **¿Te gusta planificar eventos?** 
 
-  Ayuda a la comunidad de miembros organizando conferencias alrededor del proyecto. 
+  Ayuda organizando conferencias alrededor del proyecto. 
 
 * **¿Te gusta diseñar?** 
 
@@ -20,11 +20,11 @@ Contribuye de acuerdo a tus gustos.
 
 * **¿Te gusta organizar?** 
 
-  Vincula los problemas vinculados y sugiere etiquetas para los problemas.
+  Vincula los problemas relacionados y sugiere etiquetas para los problemas.
 
 * **¿Te gusta programar?** 
 
-  Pregunta si puedes ayudar con algo, encuentra un problema abierto para entrar, etc. 
+  Pregunta si puedes ayudar con algo, encuentra un problema abierto, etc. 
 
 * **¿Te gusta ayudar a otros a programar?** 
 

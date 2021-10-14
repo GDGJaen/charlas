@@ -7,9 +7,10 @@
 
 ## ¿Qué es un Pull Request?
 
-Un pull request es un evento en Git donde un colaborador le pide al mantenedor de un repositorio de Git que revise el código que desea fusionar en un proyecto[^1].
+Un pull request es un evento en Git donde un colaborador le pide al mantenedor de un repositorio de Git (propietario o mantenedores del repositorio) que revise el código que desea fusionar al proyecto[^1].
 
-
+> En nuestra metáfora, Antonio pidiéndole a Susana que revise el *2+2=5*. 
+>
 
 [^1]: [What is a Pull Request in Git by GitKraken](https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git)
 

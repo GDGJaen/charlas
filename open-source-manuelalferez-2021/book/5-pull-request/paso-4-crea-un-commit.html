@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>¿Qué es el Open Source? - Primeros pasos en Open Source</title>
+        <title>Paso 4. Crea un commit - Primeros pasos en Open Source</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../1-introduccion/introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="../2-que-es-el-open-source/que-es-el-open-source.html" class="active"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-como-contribuir/que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="../4-introduccion-a-git/introduccion-a-git.html"><strong aria-hidden="true">4.</strong> Introducción a Git</a></li><li class="chapter-item expanded "><a href="../5-pull-request/pull-request.html"><strong aria-hidden="true">5.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-pull-request/paso-1-fork.html"><strong aria-hidden="true">5.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-2-crea-una-rama.html"><strong aria-hidden="true">5.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">5.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-4-crea-un-commit.html"><strong aria-hidden="true">5.4.</strong> Paso 4. Crea un commit</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-5-push.html"><strong aria-hidden="true">5.5.</strong> Paso 5. Push</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-6-crea-un-pull-request.html"><strong aria-hidden="true">5.6.</strong> Paso 6. Crea un pull request</a></li></ol></li><li class="chapter-item expanded "><a href="../6-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.html"><strong aria-hidden="true">6.</strong> Lanza tu propio proyecto</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../contribuidores/contribuidores.html">Contribuidores</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../1-introduccion/introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="../2-que-es-el-open-source/que-es-el-open-source.html"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-como-contribuir/que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="../4-introduccion-a-git/introduccion-a-git.html"><strong aria-hidden="true">4.</strong> Introducción a Git</a></li><li class="chapter-item expanded "><a href="../5-pull-request/pull-request.html"><strong aria-hidden="true">5.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-pull-request/paso-1-fork.html"><strong aria-hidden="true">5.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-2-crea-una-rama.html"><strong aria-hidden="true">5.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">5.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-4-crea-un-commit.html" class="active"><strong aria-hidden="true">5.4.</strong> Paso 4. Crea un commit</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-5-push.html"><strong aria-hidden="true">5.5.</strong> Paso 5. Push</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-6-crea-un-pull-request.html"><strong aria-hidden="true">5.6.</strong> Paso 6. Crea un pull request</a></li></ol></li><li class="chapter-item expanded "><a href="../6-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.html"><strong aria-hidden="true">6.</strong> Lanza tu propio proyecto</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../contribuidores/contribuidores.html">Contribuidores</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -134,21 +134,59 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="qué-es-el-open-source"><a class="header" href="#qué-es-el-open-source">¿Qué es el Open Source?</a></h1>
-<p>El código abierto es un término que originalmente se refería al software de código abierto (OSS). El software de código abierto es un código diseñado para ser de acceso público: cualquiera puede ver, modificar y distribuir el código como mejor le parezca.</p>
-<p>El software de código abierto se desarrolla de forma descentralizada y colaborativa. El software de código abierto es a menudo más barato, más flexible y tiene más longevidad porque es desarrollado por comunidades en lugar de un solo autor o empresa<sup class="footnote-reference"><a href="#1">1</a></sup>. </p>
+                        <h1 id="paso-4-crea-un-commit"><a class="header" href="#paso-4-crea-un-commit">Paso 4. Crea un commit</a></h1>
+<div align="center">
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/crea-un-commit_hbGzDMdb8B.png" height="200px"/>
+</div>
+<p>Ya has creado esa magnífica feature. Toca registrarla en el historial de Git, realizando un commit. </p>
+<p>Los commits están en el corazón del uso de Git. Puedes pensar en un commit como una captura de tu proyecto, donde se crea una nueva versión de ese proyecto en el repositorio actual. Dos características importantes de los commits son:</p>
+<ul>
+<li>puedes recordar los cambios a los que se les hizo commits en una fecha posterior, o revertir el proyecto a esa versión</li>
+<li>si varios commits editan diferentes partes del proyecto, no se sobrescribirán entre sí aunque los autores de los commits no se conozcan entre sí. Este es uno de los beneficios de usar Git sobre una herramienta como Dropbox o Google Drive <sup class="footnote-reference"><a href="#1">1</a></sup></li>
+</ul>
+<blockquote>
+<p>¿Recuerdas cuando Antonio marcó con un marcador fluorescente los cambios que hizo a los apuntes de Susana y añadió un mensaje? </p>
+</blockquote>
+<h2 id="pasos-a-seguir"><a class="header" href="#pasos-a-seguir">Pasos a seguir</a></h2>
+<div align="center">
+  </br>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/git-flowchart_2S6kARyK2Ir.png" height="300px"/>
+</br>
+</br>
+<i>El ciclo de vida del estado de tus archivos</i>
+</div>
+<ol>
+<li>
+<p>Antes de realizar el commit, indica a Git que quieres incluir actualizaciones en un archivo (o varios). Lo que se conoce como agregar el archivo a <code>staging</code>. </p>
+<pre><code class="language-shell">git add ARCHIVO1 ARCHIVO2
+</code></pre>
+<p>Si quieres pasar a <code>staging</code> todos los archivos que han sido modificados:</p>
+<pre><code class="language-shell">git add . 
+</code></pre>
+</li>
+<li>
+<p>Crea el commit.</p>
+<pre><code class="language-shell">git commit -m &quot;Mi mensaje&quot;
+</code></pre>
+<p>output: </p>
+<pre><code class="language-shell">[master 13vc6b2] Mi mensaje
+ 1 file changed, 1 insertion(+)
+</code></pre>
+<p>La opción más utilizada con <code>git commit</code> es la opción <code>-m</code>. La <code>-m</code> significa mensaje. Cuando se llama a <code>git commit</code>, es necesario incluir un mensaje. El mensaje debe ser una breve descripción de los cambios que se han hecho. El mensaje debe estar al final del comando y debe estar envuelto entre comilla <code>&quot; &quot;</code>.</p>
+</li>
+</ol>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p><a href="https://www.redhat.com/en/topics/open-source/what-is-open-source">What is Open Source? by Red Hat</a></p>
+<p><a href="https://www.freecodecamp.org/espanol/news/el-comando-git-commit-explicado/">El Comando Git Commit Explicado por Juan Carrillo</a></p>
 </div>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../1-introduccion/introduccion.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../5-pull-request/paso-3-manten-tu-fork-actualizado.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../3-como-contribuir/como-contribuir.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../5-pull-request/paso-5-push.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -157,10 +195,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../1-introduccion/introduccion.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../5-pull-request/paso-3-manten-tu-fork-actualizado.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../3-como-contribuir/como-contribuir.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../5-pull-request/paso-5-push.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

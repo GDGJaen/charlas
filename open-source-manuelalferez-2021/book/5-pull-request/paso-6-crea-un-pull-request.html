@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Paso 4. Crea un commit - Primeros pasos en Open Source</title>
+        <title>Paso 6. Crea un pull request - Primeros pasos en Open Source</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../1-introduccion/introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="../2-que-es-el-open-source/que-es-el-open-source.html"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-como-contribuir/que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="../4-pull-request/pull-request.html"><strong aria-hidden="true">4.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-pull-request/paso-1-fork.html"><strong aria-hidden="true">4.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-2-crea-una-rama.html"><strong aria-hidden="true">4.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">4.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-4-crea-un-commit.html" class="active"><strong aria-hidden="true">4.4.</strong> Paso 4. Crea un commit</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-5-push.html"><strong aria-hidden="true">4.5.</strong> Paso 5. Push</a></li><li class="chapter-item expanded "><a href="../4-pull-request/paso-6-crea-un-pull-request.html"><strong aria-hidden="true">4.6.</strong> Paso 6. Crea un pull request</a></li></ol></li><li class="chapter-item expanded "><a href="../5-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.html"><strong aria-hidden="true">5.</strong> Lanza tu propio proyecto</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../contribuidores/contribuidores.html">Contribuidores</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../1-introduccion/introduccion.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="../2-que-es-el-open-source/que-es-el-open-source.html"><strong aria-hidden="true">2.</strong> ¿Qué es el Open Source?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/como-contribuir.html"><strong aria-hidden="true">3.</strong> ¿Cómo contribuir?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-como-contribuir/que-significa-contribuir.html"><strong aria-hidden="true">3.1.</strong> ¿Qué significa contribuir?</a></li><li class="chapter-item expanded "><a href="../3-como-contribuir/encuentra-tu-comunidad.html"><strong aria-hidden="true">3.2.</strong> Encuentra tu comunidad</a></li></ol></li><li class="chapter-item expanded "><a href="../4-introduccion-a-git/introduccion-a-git.html"><strong aria-hidden="true">4.</strong> Introducción a Git</a></li><li class="chapter-item expanded "><a href="../5-pull-request/pull-request.html"><strong aria-hidden="true">5.</strong> Pull Request</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-pull-request/paso-1-fork.html"><strong aria-hidden="true">5.1.</strong> Paso 1. Fork</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-2-crea-una-rama.html"><strong aria-hidden="true">5.2.</strong> Paso 2. Crea una rama</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-3-manten-tu-fork-actualizado.html"><strong aria-hidden="true">5.3.</strong> Paso 3. Mantén tu fork actualizado</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-4-crea-un-commit.html"><strong aria-hidden="true">5.4.</strong> Paso 4. Crea un commit</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-5-push.html"><strong aria-hidden="true">5.5.</strong> Paso 5. Push</a></li><li class="chapter-item expanded "><a href="../5-pull-request/paso-6-crea-un-pull-request.html" class="active"><strong aria-hidden="true">5.6.</strong> Paso 6. Crea un pull request</a></li></ol></li><li class="chapter-item expanded "><a href="../6-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.html"><strong aria-hidden="true">6.</strong> Lanza tu propio proyecto</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../contribuidores/contribuidores.html">Contribuidores</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -134,56 +134,76 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="paso-4-crea-un-commit"><a class="header" href="#paso-4-crea-un-commit">Paso 4. Crea un commit</a></h1>
+                        <h1 id="paso-6-crea-un-pull-request"><a class="header" href="#paso-6-crea-un-pull-request">Paso 6. Crea un pull request</a></h1>
 <div align="center">
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/crea-un-commit_hbGzDMdb8B.png" height="200px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pull-request-hero_jgjXVemu3.png?updatedAt=1634136600060" height="200px"/>
 </div>
-<p>Ya has creado esa magnífica feature. Toca registrarla en el historial de Git, realizando un commit. </p>
-<p>Los commits están en el corazón del uso de Git. Puedes pensar en un commit como una captura de tu proyecto, donde se crea una nueva versión de ese proyecto en el repositorio actual. Dos características importantes de los commits son:</p>
-<ul>
-<li>puedes recordar los cambios a los que se les hizo commits en una fecha posterior, o revertir el proyecto a esa versión</li>
-<li>si varios commits editan diferentes partes del proyecto, no se sobrescribirán entre sí aunque los autores de los commits no se conozcan entre sí. Este es uno de los beneficios de usar Git sobre una herramienta como Dropbox o Google Drive <sup class="footnote-reference"><a href="#1">1</a></sup></li>
-</ul>
-<h2 id="pasos-a-seguir"><a class="header" href="#pasos-a-seguir">Pasos a seguir</a></h2>
-<div align="center">
-  </br>
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/git-flowchart_2S6kARyK2Ir.png" height="300px"/>
-</br>
-</br>
-<i>El ciclo de vida del estado de tus archivos</i>
-</div>
+<h2 id="creando-un-pull-request-por-githubsup-classfootnote-referencea-href11asup"><a class="header" href="#creando-un-pull-request-por-githubsup-classfootnote-referencea-href11asup">Creando un pull request (por GitHub)<sup class="footnote-reference"><a href="#1">1</a></sup></a></h2>
+<h3 id="desde-la-interfaz-gráfica"><a class="header" href="#desde-la-interfaz-gráfica">Desde la interfaz gráfica</a></h3>
 <ol>
 <li>
-<p>Antes de realizar el commit, indica a Git que quieres incluir actualizaciones en un archivo (o varios) en la próxima confirmación. Lo que se conoce como agregar el archivo a <code>staging</code>. </p>
-<pre><code class="language-shell">git add ARCHIVO1 ARCHIVO2
+<p>Ve a tu repositorio en GitHub y verás un botón llamado <code>Pull request</code>.</p>
+<div align="center">
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pull-request-boton_GD6udVZzWn.jpeg" height="200px"/>
+</div>
+</li>
+<li>
+<p>Escribe un título y una descripción para tu pull request.</p>
+<div align="center">
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pullrequest-description_fY7qBmzgb.png" height="200px"/>
+</div>
+</li>
+<li>
+<p>Si tu pull request es aceptado recibirás un correo.</p>
+</li>
+</ol>
+<h3 id="desde-la-terminal"><a class="header" href="#desde-la-terminal">Desde la terminal</a></h3>
+<p>Es más eficiente y rápido hacerlo con GitHub CLI. </p>
+<p>GitHub CLI es una herramienta de línea de comandos con la que puedes hacer pull requests, crear issues y otras características de GitHub, para que puedas hacer todo en un solo lugar<sup class="footnote-reference"><a href="#2">2</a></sup>.</p>
+<h4 id="instalando-github-cli"><a class="header" href="#instalando-github-cli">Instalando GitHub CLI</a></h4>
+<ol>
+<li>
+<p><a href="https://cli.github.com/">Instala</a> GitHub CLI. </p>
+</li>
+<li>
+<p>Autentícate.</p>
+<pre><code class="language-shell">gh auth login
 </code></pre>
-<p>Si quiere pasar a <code>staging</code> todos los archivos que han sido modificados:</p>
-<pre><code class="language-shell">git add . 
+</li>
+</ol>
+<h4 id="pasos-a-seguir-para-hacer-un-pull-request"><a class="header" href="#pasos-a-seguir-para-hacer-un-pull-request">Pasos a seguir para hacer un pull request</a></h4>
+<ol>
+<li>
+<p>Ubícate en la rama sobre la que quieres hacer el pull request. </p>
+<pre><code class="language-shell">git checkout NOMBRE_DE_LA_RAMA
 </code></pre>
 </li>
 <li>
-<p>Crea el commit.</p>
-<pre><code class="language-shell">git commit -m &quot;Mi mensaje&quot;
+<p>Crea el pull request.</p>
+<pre><code class="language-shell">gh pr create
 </code></pre>
-<p>output: </p>
-<pre><code class="language-shell">[master 13vc6b2] Mi mensaje
- 1 file changed, 1 insertion(+)
-</code></pre>
-<p>La opción más común utilizada con <code>git commit</code> es la opción <code>-m</code>. La <code>-m</code> significa mensaje. Cuando se llama a <code>git commit</code>, es necesario incluir un mensaje. El mensaje debe ser una breve descripción de los cambios a los que se les está realizando un commit. El mensaje debe estar al final del comando y debe estar envuelto entre comilla <code>&quot; &quot;</code>.</p>
+<p>Sigue los pasos que te indican desde la terminal. </p>
+<p>Este comando admite <code>flags</code>, para más información consulta la <a href="https://cli.github.com/manual/gh_pr_create">documentación de GitHub CLI</a>.</p>
 </li>
 </ol>
+<div align="center" place-items="center">
+  </br>
+  <i>¡BRAVO! 🚀</i>
+  <i>Acabas de hacer tu primer pull request</i>
+</div>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p><a href="https://www.freecodecamp.org/espanol/news/el-comando-git-commit-explicado/">El Comando Git Commit Explicado por Juan Carrillo</a></p>
+<p><a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">Creating a pull request by GitHub</a>
+<sup class="footnote-reference"><a href="#2">2</a></sup>: <a href="https://docs.github.com/en/github-cli/github-cli/about-github-cli">GitHub CLI</a></p>
 </div>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../4-pull-request/paso-3-manten-tu-fork-actualizado.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../5-pull-request/paso-5-push.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../4-pull-request/paso-5-push.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../6-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -192,10 +212,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../4-pull-request/paso-3-manten-tu-fork-actualizado.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../5-pull-request/paso-5-push.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../4-pull-request/paso-5-push.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../6-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
