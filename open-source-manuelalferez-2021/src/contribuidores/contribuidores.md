@@ -17,3 +17,13 @@ Aquí hay una lista de colaboradores que han ayudado a mejorar *Primeros pasos e
 | ------------------------------------------------------------ |
 | [Manuel](https://github.com/manuelalferez)                   |
 
+
+
+-----------
+
+## Agradecimientos 
+
+| <img src="https://avatars.githubusercontent.com/u/50735312?v=4" alt="Jesi" height="50"> |
+| ------------------------------------------------------------ |
+| [Jesi](https://github.com/jesi-rgb). Por la gran idea de añadir metáforas. |
+
