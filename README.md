@@ -9,5 +9,5 @@
 </div>
 
 
-- [Primeros pasos en Open Source](https://primeros-pasos-en-open-source.netlify.app) por [Manuel Alférez ](https://github.com/manuelalferez) - *22 oct, 2021*
+- [Primeros pasos en el Open Source, Git & GitHub](https://gdgjaen-opensoure.netlify.app/) por [Manuel Alférez ](https://github.com/manuelalferez) - *22 oct, 2021*
 
