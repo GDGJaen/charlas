@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Contribuidores - Primeros pasos en Open Source</title>
+        <title>Contribuidores - Primeros pasos en el Open Source, Git &amp; GitHub</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -104,7 +104,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">Primeros pasos en Open Source</h1>
+                    <h1 class="menu-title">Primeros pasos en el Open Source, Git &amp; GitHub</h1>
 
                     <div class="right-buttons">
                         <a href="../print.html" title="Print this book" aria-label="Print this book">
@@ -146,8 +146,8 @@
 </tbody></table>
 <hr />
 <h2 id="agradecimientos"><a class="header" href="#agradecimientos">Agradecimientos</a></h2>
-<table><thead><tr><th><img src="https://avatars.githubusercontent.com/u/50735312?v=4" alt="Jesi" height="50"></th></tr></thead><tbody>
-<tr><td><a href="https://github.com/jesi-rgb">Jesi</a>. Por la gran idea de añadir metáforas.</td></tr>
+<table><thead><tr><th><img src="https://avatars.githubusercontent.com/u/50735312?v=4" alt="Jesi" height="50"></th><th><img src="https://avatars.githubusercontent.com/u/27779735?v=4" alt="Abdallah" height="50"></th></tr></thead><tbody>
+<tr><td><a href="https://github.com/jesi-rgb">Jesi</a>. Por la gran idea de añadir metáforas.</td><td><a href="https://github.com/aabedraba">Abdallah</a>. Por el feedback y las referencias de <code>good first issue</code>.</td></tr>
 </tbody></table>
 
                     </main>
@@ -170,6 +170,20 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

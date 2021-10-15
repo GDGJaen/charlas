@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Paso 3. Mantén tu fork actualizado - Primeros pasos en Open Source</title>
+        <title>Paso 3. Mantén tu fork actualizado - Primeros pasos en el Open Source, Git &amp; GitHub</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -104,7 +104,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">Primeros pasos en Open Source</h1>
+                    <h1 class="menu-title">Primeros pasos en el Open Source, Git &amp; GitHub</h1>
 
                     <div class="right-buttons">
                         <a href="../print.html" title="Print this book" aria-label="Print this book">
@@ -141,7 +141,7 @@
 </div>
 <p>Estás contribuyendo a un proyecto de código abierto y notaste que tu fork no está sincronizado con el repositorio original. ¿Cómo puedes corregir eso?</p>
 <blockquote>
-<p>Imagina que Susana pusiera a disposición de Antonio cualquiera mejora de sus apuntes y Antonio pudiera pedir los apuntes actualizados de Susana siempre que quisiera. </p>
+<p>Susana puede actualizar sus apuntes y el resto de personas puede descargarse los apuntes actualizados siempre que deseen. </p>
 </blockquote>
 <h2 id="sincronizando-un-fork-por-github-sup-classfootnote-referencea-href11asup"><a class="header" href="#sincronizando-un-fork-por-github-sup-classfootnote-referencea-href11asup">Sincronizando un fork (por GitHub) <sup class="footnote-reference"><a href="#1">1</a></sup></a></h2>
 <h3 id="desde-la-interfaz-gráfica"><a class="header" href="#desde-la-interfaz-gráfica">Desde la interfaz gráfica</a></h3>
@@ -243,6 +243,20 @@ From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

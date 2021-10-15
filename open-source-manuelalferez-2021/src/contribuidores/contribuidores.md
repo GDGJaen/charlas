@@ -23,7 +23,7 @@ Aquí hay una lista de colaboradores que han ayudado a mejorar *Primeros pasos e
 
 ## Agradecimientos 
 
-| <img src="https://avatars.githubusercontent.com/u/50735312?v=4" alt="Jesi" height="50"> |
-| ------------------------------------------------------------ |
-| [Jesi](https://github.com/jesi-rgb). Por la gran idea de añadir metáforas. |
+| <img src="https://avatars.githubusercontent.com/u/50735312?v=4" alt="Jesi" height="50"> | <img src="https://avatars.githubusercontent.com/u/27779735?v=4" alt="Abdallah" height="50"> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Jesi](https://github.com/jesi-rgb). Por la gran idea de añadir metáforas. | [Abdallah](https://github.com/aabedraba). Por el feedback y las referencias de `good first issue`. |
 

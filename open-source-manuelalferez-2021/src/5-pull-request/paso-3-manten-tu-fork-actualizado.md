@@ -10,7 +10,7 @@
 
 Estás contribuyendo a un proyecto de código abierto y notaste que tu fork no está sincronizado con el repositorio original. ¿Cómo puedes corregir eso?
 
-> Imagina que Susana pusiera a disposición de Antonio cualquiera mejora de sus apuntes y Antonio pudiera pedir los apuntes actualizados de Susana siempre que quisiera. 
+> Susana puede actualizar sus apuntes y el resto de personas puede descargarse los apuntes actualizados siempre que deseen. 
 
 ## Sincronizando un fork (por GitHub) [^1]
 

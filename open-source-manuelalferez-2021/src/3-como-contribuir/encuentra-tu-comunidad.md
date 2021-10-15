@@ -72,13 +72,26 @@ Quieres participar pero no sabes por dónde empezar, no te preocupes, aquí te d
   <div align="center">
     <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/github-hacktoberfest-topic_brP4uWBHK.png" />
   </div>
-
+  ## Good first issue
+  
+  <div align="center">
+    <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/good-first-issue_1Q9NAFDY_q.png" />
+  </div>
+  
+  Con el fin de ayudar a los nuevos colaboradores a comenzar, los propietarios de muchos proyectos etiquetan algunos problemas por resolver con `good first issue`, para indicar que son lo suficientemente simples como para que los principiantes los aborden, aumentando de este modo las contribuciones útiles y reduciendo la fricción de los usuarios que abordan problemas que son demasiado difíciles para su nivel.
+  
+  Además, viene con la ventaja añadida de... ¡tendrás un mentor guiándote durante todo el proceso!
+  
+  Encuentra tu primer good first issue en: 
+  
+  * https://goodfirstissue.dev/
+  
   ## Más comunidades
-
+  
   Investiga en la lista que han creado +500 colaboradores acerca de proyectos Open Source y que ellos mismos recomiendan:
-
+  
   [sindresorhus/awesome](sindresorhus/awesome): 😎 Fantástica lista sobre todo tipo de temas interesantes.
-
+  
   
 
 <div align="center" place-items="center">

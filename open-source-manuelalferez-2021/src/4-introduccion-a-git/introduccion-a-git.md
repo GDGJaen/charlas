@@ -7,13 +7,13 @@ Imaginemos dos estudiantes, Susana y Antonio. Susana vive en Canada y Antonio en
 Susana hace muy buenos apuntes de matemáticas. La manera en la que ella trabaja es la siguiente: 
 
 1. Escribe las notas a mano
-2. Después las escanea y las pasa a su ordenador, porque no quiere perder su valiosos apuntes 
+2. Después las escanea y los sube a la nube, donde todos puedan descargar sus apuntes
 
 <div align="center">
 	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/git-metafora_vaJtliQGf.png" height="300px"/>
 </div>
 
-Antonio le pide a Susana la copia de su ordenador y ella acepta encantada. 
+Antonio encuentra los apuntes de Susana y los descarga
 
 <div align="center">
 	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/metafor-fork_15qC4Vye_.png" height="150px"/>
@@ -23,13 +23,13 @@ Ahora tanto Susana como Antonio tiene una copia exacta de los apuntes de matemá
 
 > En Git, a esto se le conoce como hacer un `fork` de un proyecto. 
 
-Antonio le pasa como a Susana, le gusta trabajar en su cuaderno físico. Sabemos que Antonio no es tonto, no estaba dispuesto a pasar todos los apuntes a mano, por ello fue a la copistería de Jacinta e imprimió los apuntes de Susana. 
+Antonio le pasa como a Susana, le gusta trabajar con apuntes en físico. Es por ello que se los imprime. 
 
 > En Git, esto se le conoce como hacer un `pull` de nuestro repositorio en la nube a nuestro repositorio local. 
 
 Pasados unos días, Antonio descubre que había un cálculo mal hecho en los apuntes de Susana y se dispone a corregirlo en su cuaderno. 
 
-Sin embargo, Susana ha sido muy buena pasándole los apuntes a Antonio. Antonio quiere agradecerle su gesto notificicándole la errata que encontró. 
+Sin embargo, Susana ha sido muy buena poniendo a disposición de todos sus apuntes. Antonio quiere agradecerle su gesto notificicándole la errata que encontró. 
 
 ¡Houston, tenemos un problema! Antonio lo ha corregido en su cuaderno, pero no puede enviarle su cuaderno a Susana. Espera, ¡sí puede! de la misma forma que hizo Susana. 
 
@@ -45,7 +45,7 @@ Ahora sí, Antonio puede escanear los apuntes, subirlos a su nube y notificar a 
 
 Más adelante, Susana revisará la aportación de Antonio para: 
 
-* si Antonio no tiene razón, descartar actualizar sus apuntes 
+* si Antonio no tiene razón, no actualizar sus apuntes 
 * si por el contrario, Antonio tiene razón, Susana corregirá sus apuntes para no sacar un cerapio
 
 > En Git, esto se le conoce como hacer un `pull request`, es decir, notificar al creador original de los apuntes sobre una posible mejora. 

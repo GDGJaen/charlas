@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Introducción a Git - Primeros pasos en Open Source</title>
+        <title>Introducción a Git - Primeros pasos en el Open Source, Git &amp; GitHub</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -104,7 +104,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">Primeros pasos en Open Source</h1>
+                    <h1 class="menu-title">Primeros pasos en el Open Source, Git &amp; GitHub</h1>
 
                     <div class="right-buttons">
                         <a href="../print.html" title="Print this book" aria-label="Print this book">
@@ -140,12 +140,12 @@
 <p>Susana hace muy buenos apuntes de matemáticas. La manera en la que ella trabaja es la siguiente: </p>
 <ol>
 <li>Escribe las notas a mano</li>
-<li>Después las escanea y las pasa a su ordenador, porque no quiere perder su valiosos apuntes </li>
+<li>Después las escanea y los sube a la nube, donde todos puedan descargar sus apuntes</li>
 </ol>
 <div align="center">
 	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/git-metafora_vaJtliQGf.png" height="300px"/>
 </div>
-<p>Antonio le pide a Susana la copia de su ordenador y ella acepta encantada. </p>
+<p>Antonio encuentra los apuntes de Susana y los descarga</p>
 <div align="center">
 	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/metafor-fork_15qC4Vye_.png" height="150px"/>
 </div>
@@ -153,12 +153,12 @@
 <blockquote>
 <p>En Git, a esto se le conoce como hacer un <code>fork</code> de un proyecto. </p>
 </blockquote>
-<p>Antonio le pasa como a Susana, le gusta trabajar en su cuaderno físico. Sabemos que Antonio no es tonto, no estaba dispuesto a pasar todos los apuntes a mano, por ello fue a la copistería de Jacinta e imprimió los apuntes de Susana. </p>
+<p>Antonio le pasa como a Susana, le gusta trabajar con apuntes en físico. Es por ello que se los imprime. </p>
 <blockquote>
 <p>En Git, esto se le conoce como hacer un <code>pull</code> de nuestro repositorio en la nube a nuestro repositorio local. </p>
 </blockquote>
 <p>Pasados unos días, Antonio descubre que había un cálculo mal hecho en los apuntes de Susana y se dispone a corregirlo en su cuaderno. </p>
-<p>Sin embargo, Susana ha sido muy buena pasándole los apuntes a Antonio. Antonio quiere agradecerle su gesto notificicándole la errata que encontró. </p>
+<p>Sin embargo, Susana ha sido muy buena poniendo a disposición de todos sus apuntes. Antonio quiere agradecerle su gesto notificicándole la errata que encontró. </p>
 <p>¡Houston, tenemos un problema! Antonio lo ha corregido en su cuaderno, pero no puede enviarle su cuaderno a Susana. Espera, ¡sí puede! de la misma forma que hizo Susana. </p>
 <p>Antonio señala con un marcador fluorescente el error y más abajo añade la corrección. </p>
 <blockquote>
@@ -170,7 +170,7 @@
 <p>Ahora sí, Antonio puede escanear los apuntes, subirlos a su nube y notificar a Susana de los cambios realizados. </p>
 <p>Más adelante, Susana revisará la aportación de Antonio para: </p>
 <ul>
-<li>si Antonio no tiene razón, descartar actualizar sus apuntes </li>
+<li>si Antonio no tiene razón, no actualizar sus apuntes </li>
 <li>si por el contrario, Antonio tiene razón, Susana corregirá sus apuntes para no sacar un cerapio</li>
 </ul>
 <blockquote>
@@ -212,6 +212,20 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

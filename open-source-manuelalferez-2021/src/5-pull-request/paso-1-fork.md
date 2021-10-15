@@ -4,7 +4,7 @@ El primer paso es hacer un fork del repositorio al que queremos hacer un pull re
 
 Un fork es una copia de un repositorio. El fork de un repositorio te permite experimentar libremente con los cambios sin afectar el proyecto original.
 
-> En nuestra metáfora, Antonio pidiéndole a Susana los apuntes de matemáticas. 
+> En nuestra metáfora, Antonio descargándose los apuntes de Susana. 
 
 La guía de GitHub es tremenda. En ella podrás ver una guía, paso a paso, de cómo hacer un fork en GitHub[^1]. 
 
