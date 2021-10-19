@@ -80,6 +80,8 @@ Quieres participar pero no sabes por dónde empezar, no te preocupes, aquí te d
 <div align="center">
   <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/github-hacktoberfest-topic_brP4uWBHK.png" />
 </div>
+
+
 ## Good first issue
 
 <div align="center">
@@ -92,7 +94,7 @@ Además, viene con la ventaja añadida de... ¡tendrás un mentor guiándote dur
 
 Encuentra tu primer good first issue en: 
 
-* https://goodfirstissue.dev/
+* [https://goodfirstissue.dev](https://goodfirstissue.dev/)
 
 ## Más comunidades
 

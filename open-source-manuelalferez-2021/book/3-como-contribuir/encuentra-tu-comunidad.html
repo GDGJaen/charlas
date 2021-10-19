@@ -206,7 +206,7 @@
 <div align="center">
   <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/github-hacktoberfest-topic_brP4uWBHK.png" />
 </div>
-## Good first issue
+<h2 id="good-first-issue"><a class="header" href="#good-first-issue">Good first issue</a></h2>
 <div align="center">
   <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/good-first-issue_1Q9NAFDY_q.png" />
 </div>
@@ -214,7 +214,7 @@
 <p>Además, viene con la ventaja añadida de... ¡tendrás un mentor guiándote durante todo el proceso!</p>
 <p>Encuentra tu primer good first issue en: </p>
 <ul>
-<li>https://goodfirstissue.dev/</li>
+<li><a href="https://goodfirstissue.dev/">https://goodfirstissue.dev</a></li>
 </ul>
 <h2 id="más-comunidades"><a class="header" href="#más-comunidades">Más comunidades</a></h2>
 <p>Investiga en la lista que han creado +500 colaboradores acerca de proyectos Open Source y que ellos mismos recomiendan:</p>
@@ -264,6 +264,20 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
