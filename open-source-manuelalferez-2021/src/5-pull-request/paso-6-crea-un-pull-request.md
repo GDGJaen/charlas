@@ -1,8 +1,9 @@
 # Paso 6. Crea un pull request
 
 <div align="center">
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pull-request-hero_jgjXVemu3.png?updatedAt=1634136600060" height="200px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.8/pull-request-hero_jgjXVemu3.png?updatedAt=1634136600060" />
 </div>
+
 
 ## Creando un pull request (por GitHub)[^1]
 
@@ -11,16 +12,22 @@
 1. Ve a tu repositorio en GitHub y verás un botón llamado `Pull request`.
 
    <div align="center">
-   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pull-request-boton_GD6udVZzWn.jpeg" height="200px"/>
+   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.7/pull-request-boton_GD6udVZzWn.jpeg" />
    </div>
 
 2. Escribe un título y una descripción para tu pull request.
 
    <div align="center">
-   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/pullrequest-description_fY7qBmzgb.png" height="200px"/>
+   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.8/pullrequest-description_fY7qBmzgb.png" />
    </div>
 
-3. Si tu pull request es aceptado recibirás un correo.
+3. <div align="center">
+     </br>
+   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.7/git-flowchart_2S6kARyK2Ir.png" />
+   </br>
+   </br>
+   <i>El ciclo de vida del estado de tus archivos</i>
+   </div>
 
 ### Desde la terminal
 

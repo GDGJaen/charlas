@@ -2,8 +2,9 @@
 
 <div align="center">
   </br>
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/fetch-git_dNAGsTgqxO.png" height="200px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.5/fetch-git_dNAGsTgqxO.png" />
 </div>
+
 
 
 
@@ -20,8 +21,9 @@ Tan simple como hacer click en `Fetch upstream`:
 
 <div align="center">
   </br>
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/sync-a-fork_5PsQ-nysuJ.png?updatedAt=1634119196564" height="300px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.7/sync-a-fork_5PsQ-nysuJ.png?updatedAt=1634119196564" />
 </div>
+
 
 ### Desde la terminal [^2]
 
@@ -44,12 +46,13 @@ Necesitamos configurar esta información para restaurar la relación familiar co
 
    <div align="center">
      </br>
-   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/updating-with-upstream_1PiPT6ys3.png" height="250px"/>
+   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.75/updating-with-upstream_1PiPT6ys3.png" />
    </br>
    <i>Procesos que intervienen al sincronizar un fork</i>
    </div>
 
    
+
 
    ```shell
    git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git

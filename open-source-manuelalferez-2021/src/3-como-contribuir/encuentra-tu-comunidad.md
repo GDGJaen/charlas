@@ -4,8 +4,9 @@
   <h2>
     Google Summer of Code 
   </h2>
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/gsoc-logo_izo853FWi.png?updatedAt=1634108468143" alt="GSOC logo" height="80"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.4/gsoc-logo_izo853FWi.png?updatedAt=1634108468143" alt="GSOC logo" />
 </div>
+
 
 Google Summer of Code es un programa global centrado en atraer a más estudiantes al desarrollo de software Open Source. Los estudiantes trabajan con una organización de código abierto en un proyecto de programación de 10 semanas durante sus vacaciones universitarias [^1].
 
@@ -29,12 +30,17 @@ Google Summer of Code es un programa global centrado en atraer a más estudiante
 
 Únete al [grupo de discusión](https://groups.google.com/g/google-summer-of-code-discuss) de Google Summer of Code. 
 
+### Guía para estudiantes
+
+[Guía para estudiantes](https://google.github.io/gsocguides/student/). Si deseas aumentar tus posibilidades de ser aceptado (y tener éxito durante) Google Summer of Code, le recomendamos encarecidamente que lea esta guía. Es particularmente útil para obtener consejos sobre cómo escribir una buena propuesta de proyecto y cómo los estudiantes deben interactuar con las comunidades con las que están interesados en trabajar durante el verano.
+
 <div align="center" place-items="center">
   <h2>
     Hacktoberfest
   </h2>
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/hacktoberfest-2021-logo_MlGJphc4er.png?updatedAt=1634108468235" alt="hacktoberfest logo" height="80"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.4/hacktoberfest-2021-logo_MlGJphc4er.png?updatedAt=1634108468235" alt="hacktoberfest logo"/>
 </div>
+
 
 Hacktoberfest fomenta la participación en el Open Source, animando a los participantes a completar un desafío y regalándoles una camiseta de edición limitada[^3].
 
@@ -69,29 +75,39 @@ Quieres participar pero no sabes por dónde empezar, no te preocupes, aquí te d
 
 * [GitHub](https://github.com/topics/hacktoberfest). Buscando por el topic `Hacktoberfest` verás ¡más 84.000 repositorios públicos en los que participar!
 
-  <div align="center">
-    <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/github-hacktoberfest-topic_brP4uWBHK.png" />
-  </div>
-  ## Good first issue
-  
-  <div align="center">
-    <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/good-first-issue_1Q9NAFDY_q.png" />
-  </div>
-  
-  Con el fin de ayudar a los nuevos colaboradores a comenzar, los propietarios de muchos proyectos etiquetan algunos problemas por resolver con `good first issue`, para indicar que son lo suficientemente simples como para que los principiantes los aborden, aumentando de este modo las contribuciones útiles y reduciendo la fricción de los usuarios que abordan problemas que son demasiado difíciles para su nivel.
-  
-  Además, viene con la ventaja añadida de... ¡tendrás un mentor guiándote durante todo el proceso!
-  
-  Encuentra tu primer good first issue en: 
-  
-  * https://goodfirstissue.dev/
-  
-  ## Más comunidades
-  
-  Investiga en la lista que han creado +500 colaboradores acerca de proyectos Open Source y que ellos mismos recomiendan:
-  
-  [sindresorhus/awesome](sindresorhus/awesome): 😎 Fantástica lista sobre todo tipo de temas interesantes.
-  
+  *  [Awesome for Beginners](https://github.com/mungell/awesome-for-beginners). Una lista de proyectos increíbles para principiantes usando C, C++, Go, Java, Python, JavaScript y mucho más. 
+
+<div align="center">
+  <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/github-hacktoberfest-topic_brP4uWBHK.png" />
+</div>
+## Good first issue
+
+<div align="center">
+  <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/good-first-issue_1Q9NAFDY_q.png" />
+</div>
+
+Con el fin de ayudar a los nuevos colaboradores a comenzar, los propietarios de muchos proyectos etiquetan algunos problemas por resolver con `good first issue`, para indicar que son lo suficientemente simples como para que los principiantes los aborden, aumentando de este modo las contribuciones útiles y reduciendo la fricción de los usuarios que abordan problemas que son demasiado difíciles para su nivel.
+
+Además, viene con la ventaja añadida de... ¡tendrás un mentor guiándote durante todo el proceso!
+
+Encuentra tu primer good first issue en: 
+
+* https://goodfirstissue.dev/
+
+## Más comunidades
+
+Investiga en la lista que han creado +500 colaboradores acerca de proyectos Open Source y que ellos mismos recomiendan:
+
+[sindresorhus/awesome](sindresorhus/awesome): 😎 Fantástica lista sobre todo tipo de temas interesantes.
+
+## Tareas nivel intermedio 
+
+Una vez que comience a sentirse más cómodo creando pull request, puede continuar descubriendo más proyectos de código abierto que pueden necesitar tu ayuda a través de los siguientes programas:
+
+* [https://www.codetriage.com](https://www.codetriage.com)
+
+* [http://www.pullrequestroulette.com](http://www.pullrequestroulette.com)
+
   
 
 <div align="center" place-items="center">

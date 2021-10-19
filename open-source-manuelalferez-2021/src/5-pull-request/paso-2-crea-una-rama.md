@@ -2,8 +2,9 @@
 
 <div align="center">
   </br>
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/git-crear-rama_7oXZIjj-mI.png" height="300px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.8/git-crear-rama_7oXZIjj-mI.png" />
 </div>
+
 
 Utilice una rama para aislar el trabajo de desarrollo sin afectar a otras ramas del repositorio. Cada repositorio tiene una rama predeterminada y puede tener varias otras ramas. 
 
@@ -44,8 +45,9 @@ git branch -d RAMA_A_ELIMINAR
 El GitFlow Workflow es una metodología de trabajo basada en el división de las distintas etapas de producción de software en distintas ramas del repositorio [^2].
 
 <div align="center">
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/gitflow_gJcH9FOxg.svg" height="300px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.1/gitflow_gJcH9FOxg.svg" />
 </div>
+
 
 - `master`: En la rama máster se encuentran las *releases* estables de nuestro software. Esta es la rama que un usuario típico se descargará para usar nuestro software, por lo que todo lo que hay en esta rama debería ser funcional. Sin embargo, puede que las últimas mejoras introducidas en el software no estén disponibles todavía en esta rama.
 - `develop`: En esta rama surge de la última release de `master`. En ella se van integrando todas las nuevas características hasta la siguiente release.

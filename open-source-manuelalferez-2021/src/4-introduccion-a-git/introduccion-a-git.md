@@ -10,14 +10,16 @@ Susana hace muy buenos apuntes de matemáticas. La manera en la que ella trabaja
 2. Después las escanea y los sube a la nube, donde todos puedan descargar sus apuntes
 
 <div align="center">
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/git-metafora_vaJtliQGf.png" height="300px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.8/git-metafora_vaJtliQGf.png" />
 </div>
+
 
 Antonio encuentra los apuntes de Susana y los descarga
 
 <div align="center">
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/metafor-fork_15qC4Vye_.png" height="150px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.2/metafor-fork_15qC4Vye_.png" />
 </div>
+
 
 Ahora tanto Susana como Antonio tiene una copia exacta de los apuntes de matemáticas.
 
@@ -38,8 +40,9 @@ Antonio señala con un marcador fluorescente el error y más abajo añade la cor
 > En Git, esto se le conocerá como hacer un `commit`, es decir, registrar los cambios que se le han hecho al documento original. Los commits, como ya veremos, llevan asociados mensajes descriptivos. 
 
 <div align="center">
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/commit-metafora_e0ECl7ZGr.png" height="300px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.7/commit-metafora_e0ECl7ZGr.png" />
 </div>
+
 
 Ahora sí, Antonio puede escanear los apuntes, subirlos a su nube y notificar a Susana de los cambios realizados. 
 

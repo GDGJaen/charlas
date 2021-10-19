@@ -13,7 +13,7 @@ Es tan fácil como:
 1. En GitHub, estando en el repositorio al que le queremos hacer un fork: 
 
    <div align="center">
-   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/fork_button_9SM_Imbyk.jpeg" height="100px"/>
+   	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.8/fork_button_9SM_Imbyk.jpeg" />
    </div>
 
 [^1]: [Fork a repo by GitHub](https://docs.github.com/en/get-started/quickstart/fork-a-repo)

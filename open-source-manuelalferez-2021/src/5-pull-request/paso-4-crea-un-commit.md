@@ -1,8 +1,9 @@
 # Paso 4. Crea un commit
 
 <div align="center">
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/crea-un-commit_hbGzDMdb8B.png" height="200px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.8/crea-un-commit_hbGzDMdb8B.png" />
 </div>
+
 
 Ya has creado esa magnífica feature. Toca registrarla en el historial de Git, realizando un commit. 
 
@@ -17,7 +18,7 @@ Los commits están en el corazón del uso de Git. Puedes pensar en un commit com
 
 <div align="center">
   </br>
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/git-flowchart_2S6kARyK2Ir.png" height="300px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.7/git-flowchart_2S6kARyK2Ir.png" />
 </br>
 </br>
 <i>El ciclo de vida del estado de tus archivos</i>
