@@ -2,8 +2,9 @@
 
 <div align="center">
   </br>
-	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/people_PNG_LfN1Fhu6o.png" height="200px"/>
+	<img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.2/people_PNG_LfN1Fhu6o.png" />
 </div>
+
 
 Esta guía es Open Source. ¿Quieres contribuir? Empieza por el archivo [CONTRIBUIR.md](https://github.com/GDGJaen/charlas/blob/master/open-source-manuelalferez-2021/CONTRIBUIR.md) donde podrás informarte sobre cómo colaborar en el proyecto.
 
