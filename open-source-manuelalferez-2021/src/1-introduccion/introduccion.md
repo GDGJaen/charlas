@@ -2,6 +2,12 @@
 
 Esta guía contiene la documentación para iniciarse en el Open Source. Aprenderás sobre:
 
+Únete a nuestro canal de discusión y entérate de lo que esta pasando:
+
+* https://github.com/GDGJaen/charlas/discussions/3
+
+
+
 ## Índice
 
 - [Introducción](/1-introduccion/introduccion.md)

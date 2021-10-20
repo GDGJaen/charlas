@@ -136,6 +136,10 @@
                     <main>
                         <h1 id="introducción"><a class="header" href="#introducción">Introducción</a></h1>
 <p>Esta guía contiene la documentación para iniciarse en el Open Source. Aprenderás sobre:</p>
+<p>Únete a nuestro canal de discusión y entérate de lo que esta pasando:</p>
+<ul>
+<li>https://github.com/GDGJaen/charlas/discussions/3</li>
+</ul>
 <h2 id="Índice"><a class="header" href="#Índice">Índice</a></h2>
 <ul>
 <li><a href="/1-introduccion/introduccion.html">Introducción</a></li>
@@ -188,20 +192,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3000/__livereload");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
