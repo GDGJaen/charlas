@@ -8,6 +8,16 @@ Esta guía contiene la documentación para iniciarse en el Open Source. Aprender
 
 
 
+Slides de la charla:
+
+<div align="center">
+  <a href="https://docs.google.com/presentation/d/1HKVkrG2lhEIsZ3bOelhFBckSnGQLryWdhaXoEgogOiA/edit?usp=sharing" >
+   <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.2/google-slides_pz_27Jntk.png?updatedAt=1634908664552"/>
+  </a>
+</div>
+
+
+
 ## Índice
 
 - [Introducción](/1-introduccion/introduccion.md)

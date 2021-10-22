@@ -14,4 +14,3 @@ Contribuir a proyecto de otras personas puede incluso abrirte las puertas a tu p
 <div align="center">
   <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:h-0.7/colaboradores-job_JP5OjBrpPh.png"/>
 </div>
-
