@@ -8,7 +8,7 @@
 </div>
 
 
-Google Summer of Code es un programa global centrado en atraer a más estudiantes al desarrollo de software Open Source. Los estudiantes trabajan con una organización de código abierto en un proyecto de programación de 10 semanas durante sus vacaciones universitarias [^1].
+[Google Summer of Code](https://summerofcode.withgoogle.com/about/) es un programa global centrado en atraer a más estudiantes al desarrollo de software Open Source. Los estudiantes trabajan con una organización de código abierto en un proyecto de programación de 10 semanas durante sus vacaciones universitarias [^1].
 
 
 ¡Prepárate con tiempo conociendo el programa de años anteriores! [^2]:
@@ -24,7 +24,7 @@ Google Summer of Code es un programa global centrado en atraer a más estudiante
 | Community Bonding                          | Los estudiantes pasan un mes aprendiendo más sobre su organización. | Mayo 17 - Junio 7   |
 | Coding                                     | Los estudiantes trabajan en sus proyectos de Google Summer of Code. | Junio 7 - Agosto 16 |
 | Evaluations                                | Los mentores y los estudiantes envían sus evaluaciones.      | Julio 12 - 16       |
-| Students Submit Code and Final Evaluations | <div align="center">  <a href="https://docs.google.com/presentation/d/1HKVkrG2lhEIsZ3bOelhFBckSnGQLryWdhaXoEgogOiA/edit?usp=sharing" >   <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/google-slides_pz_27Jntk.png?updatedAt=1634908664552"/>  </a></div> | Agosto 16 - 23      |
+| Students Submit Code and Final Evaluations | Los estudiantes envían su código y los mentores realizan las evaluaciones finales. | Agosto 16 - 23      |
 | Mentors Submit Final Evaluations           | Los mentores revisan el código de los estudiantes y determinan si los estudiantes completaron con éxito su proyecto. | Agosto 23 - 30      |
 | Results Announced                          | Se notifica a los estudiantes sobre el estado de sus proyectos de Google Summer of Code 2021: pass / fail. | Agosto 31, 202      |
 
