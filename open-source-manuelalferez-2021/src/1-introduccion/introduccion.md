@@ -1,12 +1,14 @@
 # Introducción
 
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e2k92veYPTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Esta guía contiene la documentación para iniciarse en el Open Source. Aprenderás sobre:
 
 Únete a nuestro canal de discusión y entérate de lo que esta pasando:
 
-* [https://github.com/GDGJaen/charlas/discussions/3](https://github.com/GDGJaen/charlas/discussions/3)
-
-
+- [https://github.com/GDGJaen/charlas/discussions/3](https://github.com/GDGJaen/charlas/discussions/3)
 
 Slides de la charla:
 
@@ -14,9 +16,7 @@ Slides de la charla:
   <a href="https://docs.google.com/presentation/d/1HKVkrG2lhEIsZ3bOelhFBckSnGQLryWdhaXoEgogOiA/edit?usp=sharing" >
    <img src="https://ik.imagekit.io/gdgjaen/charlas/open-source-2021/tr:w-0.2/google-slides_pz_27Jntk.png?updatedAt=1634908664552"/>
   </a>
-</div>
-
-
+</div
 
 ## Índice
 
@@ -35,11 +35,9 @@ Slides de la charla:
   - [Paso 6. Crea un pull request](/5-pull-request/paso-6-crea-un-pull-request.md)
 - [Lanza tu propio proyecto](/6-lanza-tu-propio-proyecto/lanza-tu-propio-proyecto.md)
 
------------
+---
 
 [Contribuidores](./contribuidores/contribuidores.md)
-
-
 
 <div align="center" place-items="center">
   Código fuente disponible en
